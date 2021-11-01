@@ -9,9 +9,7 @@ app.set('view engine', 'ejs'); /* View engine, to use enriched HTML */
 /* Middlewares: authentication stuff */
 
 /* Routes: Main page routes */
-app.get('/', (req, res) => {
-    res.render('index'); /* Rendering the index file, using ejs. */
-})
+app.use(require('./routes/'));
 
 /* Static Files */
 
