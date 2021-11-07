@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Humble;
+    src: url('/fonts/The_Humble.ttf');
+}
+
+body {
+    background-image: url('/src/public/img/');
+}
